@@ -1,10 +1,14 @@
 .car-slot {
     display: block;
-    max-width: 25%;
+    max-width: 20%;
     border-radius: 20%;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(42, 216, 42);
+    background-color: rgb(140, 240, 94);
+}
+
+.place-label {
+    font-size: 50px;
 }
 
 .image {
@@ -28,12 +32,33 @@
     transform: scale(1.2);
 }
 
+.row {
+    padding: 25px;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
 #mainindex {
     text-align: center;
-    padding: 5%;
+    height: 100vh;
+    padding: 30px;
 }
 
-#carpark {
-    padding-top: 10%;
+#subindex {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
 }
 
+#car-park {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

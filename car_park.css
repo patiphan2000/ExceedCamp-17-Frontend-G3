@@ -1,0 +1,39 @@
+.car-slot {
+    display: block;
+    max-width: 25%;
+    border-radius: 20%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(42, 216, 42);
+}
+
+.image {
+    max-width: 100%;
+}
+
+.middle {
+    transition: .2s ease;
+    opacity: 0;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+#mainindex {
+    text-align: center;
+    padding: 5%;
+}
+
+#carpark {
+    padding-top: 10%;
+}
+
